@@ -18,8 +18,6 @@ public:
                 }
             }
         }
-        
-        
         for(int i = 0 ; i< arr1.size() ; i++ ){
             bool found = false ;
             for(int j=0 ; j<arr2.size() ; j++){
@@ -41,6 +39,16 @@ int main() {
 
     Solution s;
 
+    // 1. Define the input vectors and distance 'd'
+    vector<int> arr1 = {4, 5, 8};
+    vector<int> arr2 = {10, 9, 1, 8};
+    int d = 2;
+
+    // 2. Call the function and store the result
+    int result = s.findTheDistanceValue(arr1, arr2, d);
+
+    // 3. Print the outcome
+    cout << "The distance value is: " << result << endl;
     
     return 0;
 }
