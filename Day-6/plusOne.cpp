@@ -17,7 +17,7 @@ public:
         }
         
         digits.push_back(0);
-        digits[0] = 1;₹
+        digits[0] = 1;
         return digits;
     }
 };
