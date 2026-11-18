@@ -3,7 +3,6 @@
 
 using namespace std;
 
-
 class Solution {
     public : 
         vector<int> getConcatenation(vector<int>& nums){
@@ -26,7 +25,7 @@ int main () {
     int len;
     vector<int> nums;
 
-    cout<<"enter the array range : ";
+    cout<<"enter the array range of Array : ";
     cin>>len;
     nums.reserve(len);
 
