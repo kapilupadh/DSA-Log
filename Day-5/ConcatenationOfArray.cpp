@@ -25,7 +25,7 @@ int main () {
     int len;
     vector<int> nums;
 
-    cout<<"enter the array range of Array : ";
+    cout<<"enter the array range : ";
     cin>>len;
     nums.reserve(len);
 
